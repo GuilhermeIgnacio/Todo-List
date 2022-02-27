@@ -5,7 +5,7 @@
 <img width="600px" src="./github/refreshing.gif" />
 <br>
 
-O site pode ser acessado clicando<a href"https://guilherme-todo-list.netlify.app">aqui</a>
+O site pode ser acessado clicando  <a target="_blank" href="https://guilherme-todo-list.netlify.app">aqui</a>.
 
 # Getting Started with Create React App
 
