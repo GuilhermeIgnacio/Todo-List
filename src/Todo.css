@@ -1,0 +1,147 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  margin: auto;
+  max-width: 900px;
+  word-wrap: break-word;
+}
+
+.done {
+  /* text-decoration: line-through; */
+  background-color: #39e804;
+}
+
+#delete:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.btn {
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border-style: none;
+  background-color: whitesmoke;
+}
+
+/* Animação do botão de Deletar */
+/* Animação do botão de Deletar */
+
+#delete {
+  background-color: whitesmoke;
+  transition: background-color 0.4s;
+}
+#delete:hover {
+  background-color: #ff5f5f;
+}
+#delete:active {
+  background-color: #ff5f5f;
+}
+/* ------------------------------ */
+/* ------------------------------ */
+
+/* Animação do Botão Check */
+/* Animação do Botão Check */
+#check {
+  background-color: whitesmoke;
+  transition: background-color 0.4s;
+}
+
+#check:hover {
+  background-color: #39e804;
+}
+/* --------------------------- */
+/* --------------------------- */
+
+.addButton {
+  background-color: rgb(16, 157, 212);
+  color: white;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  border: none;
+  border-radius: 100%;
+  /* margin: auto; */
+}
+
+.addButton:hover {
+  animation-name: spin;
+  animation-duration: 1s;
+  cursor: pointer;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+li {
+  /* word-wrap: break-word; */
+  word-break: break-all;
+  width: 140px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+}
+
+.hide {
+  display: none;
+}
+.asd {
+  font-size: larger;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  /* border-radius: 2px; */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btn1 {
+  font-size: larger;
+  /* background-color: skyblue; */
+  background-color: #0d6efd;
+  color: white;
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.btn1:hover {
+  cursor: pointer;
+}
