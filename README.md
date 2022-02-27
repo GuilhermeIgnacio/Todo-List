@@ -3,7 +3,9 @@
 <img width="600px" src="./github/preview.gif" />
 <hr>
 <img width="600px" src="./github/refreshing.gif" />
+<br>
 
+O site pode ser acessado clicando<a href"https://guilherme-todo-list.netlify.app">aqui</a>
 
 # Getting Started with Create React App
 
